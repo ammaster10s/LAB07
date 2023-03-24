@@ -1,0 +1,18 @@
+The following transactions are temporary and to be valid at the end of the year.,,,,
+This report includes transaction from 3 accounts: Anne, Bob, and Clair.,,,,
+TransactionNumber,Date,AccountName,Amount,Remark
+1,29/6/2016,Anne,120,
+2,2/7/2016,Bob,75,BankTransfer
+3,5/7/2016,Clair,85,
+4,6/7/2016,Bob,100,
+5,9/7/2016,Clair,35,CreditCard
+6,11/7/2016,Anne,40,
+7,18/7/2016,Anne,95,
+8,24/7/2016,Bob,60,BankTransfer
+9,31/7/2016,Clair,45,
+10,2/8/2016,Anne,120,
+11,9/8/2016,Bob,160,
+12,15/8/2016,Bob,70,
+13,24/8/2016,Anne,90,
+14,26/8/2016,Clair,120,
+15,30/8/2016,Clair,40,CreditCard
