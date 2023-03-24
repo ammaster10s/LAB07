@@ -1,5 +1,5 @@
 import csv
-from datetime import datetime
+
 
 with open('data.csv', mode='r') as csv_file:
     for i  in range(2):
@@ -19,9 +19,9 @@ for transaction in transactions:
 transactions_sorted = sorted(transactions, key=lambda x: x['Date'][3:5]+x['Date'][0:2]+x['Date'][6:])
 
 for account_name, transactions in account_transactions.items():
-    
+   
     transactions = [t for t in transactions ]
- 
+   
     with open(f'{account_name}.csv', mode='w', newline='') as csv_file:
         fieldnames = ['TransactionNumber', 'Date', 'Amount', 'Remark']
         csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
